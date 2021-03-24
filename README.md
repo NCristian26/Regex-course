@@ -22,14 +22,11 @@ att. Nicolas Villamil
 
 
 ## EL LENGUAJE: CARACTERES, OPERADORES, Y CONSTRUCCIONES
-  ### Los delimitadores: +, *, ?
-  >asdfg
-  
-  ### Los contadores {1, 4}
-  >asd
-  
-
-
-  
-
- 
+### Los delimitadores: +, *, ? 
+  > Los delimitadores en nuestras clases acotan los match que podemos obtener de la expresión.<br>
+ - #### * --> Selecciona todo <br>
+    > Este delimitador sirve para indicar que se debe incluir todo lo que haga match  dada una clase.
+ - ### + --> 
+  >asdfghj
+### Los contadores {1, 4}
+  >asd 
