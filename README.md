@@ -31,4 +31,12 @@ att. C. Nicolas Villamil
  - #### ? --> Selecciona 0 o 1 
     >Este delimitador nos trae la misma seleccion que el operador * pero caracter por caracter.
 ### Los contadores {1, 4}
-  >
+  >Los contadores en las expresiones regulares sirven para delimitar el numero de repeticiones que puede o debe tener una cadena de texto para que haga match. <br>
+  La manera de escribir esta condiciòn es como sigue: <br>
+  
+    {a, b}
+  >Siendo { } el par de signos utilizados para delimitar el contador. <br>
+  a, el limite inferior del contador. <br>
+  Y b, el limite suyperior.
+
+  >Algunos lenguajes permiten el uso de un solo numero cuando estamos siendo estrictos en cuanto al contador.
