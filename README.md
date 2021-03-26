@@ -8,7 +8,7 @@ Creación del repositorio: 19/03/2021
 
 Ultima actualización: 19/03/2021
 
-att. Nicolas Villamil
+att. C. Nicolas Villamil
 
 <div align="center">
     <img src=images/regex_logo.png alt="Regex logo" width="350px" height="350px">
@@ -24,9 +24,11 @@ att. Nicolas Villamil
 ## EL LENGUAJE: CARACTERES, OPERADORES, Y CONSTRUCCIONES
 ### Los delimitadores: +, *, ? 
   > Los delimitadores en nuestras clases acotan los match que podemos obtener de la expresión.<br>
- - #### * --> Selecciona todo <br>
-    > Este delimitador sirve para indicar que se debe incluir todo lo que haga match  dada una clase.
- - ### + --> 
-  >asdfghj
+ - #### * --> Selecciona 0 o todo <br>
+    > Este delimitador sirve para indicar que se debe incluir todo lo que haga o no match  dada una clase. Trae una seleccion completa agrupando los match.
+ - #### + --> Selecciona 1 o más 
+    >Este delimitador selecciona solamente lo que haga match una o más veces dada una clase. Trae una seleccion unica o completa.
+ - #### ? --> Selecciona 0 o 1 
+    >Este delimitador nos trae la misma seleccion que el operador * pero caracter por caracter.
 ### Los contadores {1, 4}
-  >asd 
+  >
