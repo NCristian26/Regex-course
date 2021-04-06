@@ -91,3 +91,27 @@ att. C. Nicolas Villamil
 > - Para las clases construidas se escribe el caracter (^) al inicio de la clase.
 
     [^0-5a-c] //Trae Todos los digitos que NO esten entre 0 y 5 y todos los caracteres que No esten entre a y c.
+
+### El principio (^) y el final de linea ($)
+
+>Cuando lo que se quiere es usar las expresiones regulares para evaluar una linea completa, debemos usar los caracteres (^) y ($). <br>
+
+
+    El caracter (^) indica el inicio de linea.
+    Por su parte el caracter ($) denota el final de linea.
+
+    Ej. ^asi "ve" el editor de texto una linea con su inicio y su fin$
+
+>Esto es importante en muchas aplicaciones de las expresiones regulares como cuando por ejemplo se quiere incluir solamente aquellas cadenas de texto que esten al inicio o al final de una linea.
+
+    $\d+,
+
+>Esta expresion regular solamente admite aquellas cadenas de caracteres que estén al inicio de una linea (^), tengan uno o mas digitos (\d+) y al final tengan una coma (,). <br>
+>Sin el caracter (^) que denota el inicio de linea, no habria manera de indicar que lo que queremos debe estar al inicio de la linea. Lo mismo funciona para el final de linea ($).
+
+>Cuando queremos validar que una linea completa haga o no match sin incluir resultados parciales utilizamos los dos caracteres (^) y ($).
+
+    ^\d{3,5}$
+
+>Esta expresion regular lo que nos traería sería solamente aquellas lineas que comiencen, tengan entre 3 y 5 digitos e inmetiatamente terminen sin dejar opcion a aquellas lineas que tengan algo más. <br>
+>Esto nos sirve esencialmente cuando lo que queremos es evaluar lineas completas. Por ejemplo en un archivo csv donde nos interesa traer solamente las lineas que contegan determinada forma. 
